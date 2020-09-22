@@ -1,4 +1,6 @@
-﻿using System;
+﻿using PetternDecorator.DecoratorTest;
+using System;
+using PetternDecorator.DecoratorTest.Decorator;
 
 namespace PetternDecorator
 {
@@ -7,6 +9,9 @@ namespace PetternDecorator
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            IObjectTest _objectTest = new DecoratorFirst(new DecoratorTwo(new ObjectTest()));
+            _objectTest.GetText();
+            
         }
     }
 }
