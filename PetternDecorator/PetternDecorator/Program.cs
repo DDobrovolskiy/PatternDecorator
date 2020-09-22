@@ -18,6 +18,12 @@ namespace PetternDecorator
             Console.WriteLine("--- End --- offline");
 
             //RunTimeTest
+
+            while(true)
+            {
+                Console.WriteLine("Please prees key or press Enter to exite programm");
+                Console.ReadKey();
+            }
         }
     }
 }
