@@ -4,10 +4,10 @@ using System.Text;
 
 namespace PetternDecorator.DecoratorTest.Decorator
 {
-    public abstract class DecoratorBase: IObjectTest
+    public abstract class DecoratorBase: ObjectTestBase, IObjectTest
     {
         public abstract void GetDecorator();
 
-        public abstract void GetText();
+        //public abstract void GetText();
     }
 }
