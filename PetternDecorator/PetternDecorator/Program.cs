@@ -22,6 +22,7 @@ namespace PetternDecorator
             while(true)
             {
                 Console.WriteLine("Please prees key or press Enter to exite programm");
+                _objectTest.GetText();
                 Console.ReadKey();
             }
         }
