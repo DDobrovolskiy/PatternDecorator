@@ -1,0 +1,13 @@
+C:\Users\Dmitry\Desktop\CSharp Project\Decorator Test\PatternDecorator\PetternDecorator\PetternDecorator\bin\Debug\netcoreapp3.1\PetternDecorator.exe
+C:\Users\Dmitry\Desktop\CSharp Project\Decorator Test\PatternDecorator\PetternDecorator\PetternDecorator\bin\Debug\netcoreapp3.1\PetternDecorator.deps.json
+C:\Users\Dmitry\Desktop\CSharp Project\Decorator Test\PatternDecorator\PetternDecorator\PetternDecorator\bin\Debug\netcoreapp3.1\PetternDecorator.runtimeconfig.json
+C:\Users\Dmitry\Desktop\CSharp Project\Decorator Test\PatternDecorator\PetternDecorator\PetternDecorator\bin\Debug\netcoreapp3.1\PetternDecorator.runtimeconfig.dev.json
+C:\Users\Dmitry\Desktop\CSharp Project\Decorator Test\PatternDecorator\PetternDecorator\PetternDecorator\bin\Debug\netcoreapp3.1\PetternDecorator.dll
+C:\Users\Dmitry\Desktop\CSharp Project\Decorator Test\PatternDecorator\PetternDecorator\PetternDecorator\bin\Debug\netcoreapp3.1\PetternDecorator.pdb
+C:\Users\Dmitry\Desktop\CSharp Project\Decorator Test\PatternDecorator\PetternDecorator\PetternDecorator\obj\Debug\netcoreapp3.1\PetternDecorator.csprojAssemblyReference.cache
+C:\Users\Dmitry\Desktop\CSharp Project\Decorator Test\PatternDecorator\PetternDecorator\PetternDecorator\obj\Debug\netcoreapp3.1\PetternDecorator.AssemblyInfoInputs.cache
+C:\Users\Dmitry\Desktop\CSharp Project\Decorator Test\PatternDecorator\PetternDecorator\PetternDecorator\obj\Debug\netcoreapp3.1\PetternDecorator.AssemblyInfo.cs
+C:\Users\Dmitry\Desktop\CSharp Project\Decorator Test\PatternDecorator\PetternDecorator\PetternDecorator\obj\Debug\netcoreapp3.1\PetternDecorator.csproj.CoreCompileInputs.cache
+C:\Users\Dmitry\Desktop\CSharp Project\Decorator Test\PatternDecorator\PetternDecorator\PetternDecorator\obj\Debug\netcoreapp3.1\PetternDecorator.dll
+C:\Users\Dmitry\Desktop\CSharp Project\Decorator Test\PatternDecorator\PetternDecorator\PetternDecorator\obj\Debug\netcoreapp3.1\PetternDecorator.pdb
+C:\Users\Dmitry\Desktop\CSharp Project\Decorator Test\PatternDecorator\PetternDecorator\PetternDecorator\obj\Debug\netcoreapp3.1\PetternDecorator.genruntimeconfig.cache
