@@ -15,7 +15,9 @@ namespace PetternDecorator
             ObjectTestBase _objectTestTwo = new DecoratorTwo(new DecoratorFirst(new ObjectTest()));
             _objectTestTwo.GetText();
 
-            Console.WriteLine("--- End ---");
+            Console.WriteLine("--- End --- offline");
+
+            //RunTimeTest
         }
     }
 }
