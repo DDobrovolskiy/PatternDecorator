@@ -1,6 +1,8 @@
 ﻿using PetternDecorator.DecoratorTest;
 using System;
 using PetternDecorator.DecoratorTest.Decorator;
+using PetternDecorator.DecoratorTesRunTime;
+using PetternDecorator.DecoratorTesRunTime.Decorators;
 
 namespace PetternDecorator
 {
@@ -19,18 +21,53 @@ namespace PetternDecorator
 
             //RunTimeTest
 
-            while(true)
+            IDec dec = new Dec();
+            const string addDec1 = "add x";
+            bool addDec1Bool = true;
+            const string addDec2 = "add z";
+            bool addDec2Bool = true;
+
+            Console.WriteLine("Please press 'help' or press Enter to exite programm");
+            while (true)
             {
-                string preessKey;
-                Console.WriteLine("Please press 'help' or press Enter to exite programm");
-                preessKey = Console.ReadLine();
+                string preessKey = Console.ReadLine();
                 
                 switch(preessKey)
                 {
-                    case "": return; break;
-                    case "help": Console.WriteLine("not command"); break;
-                    default: Console.WriteLine("Unknow command, please repeat command"); break;
-                }    
+                    case "": return;
+                    case "help": 
+                        dec.GetCommand();
+                        if (addDec1Bool) Console.WriteLine(addDec1);
+                        if (addDec2Bool) Console.WriteLine(addDec2);
+                        break;
+                    case addDec1:
+                        if (addDec1Bool)
+                        {
+                            dec = new DecDecoratorFirst(dec);
+                            addDec1Bool = false;
+                            Console.WriteLine("Decorator First is done!");
+                        }
+                        else
+                        {
+                            Console.WriteLine("Operation didn`t complite");
+                        }
+                        break;
+                    case addDec2:
+                        if (addDec2Bool)
+                        {
+                            dec = new DecDecoratorTwo(dec);
+                            addDec2Bool = false;
+                            Console.WriteLine("Decorator Two is done!");
+                        }
+                        else
+                        {
+                            Console.WriteLine("Operation didn`t complite");
+                        }
+                        break;
+                    default: dec.SetCommandConsole(preessKey); break;
+                }
+
+                Console.WriteLine("---");
             }
         }
     }
