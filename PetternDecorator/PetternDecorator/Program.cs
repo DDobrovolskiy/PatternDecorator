@@ -11,15 +11,21 @@ namespace PetternDecorator
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            IObjectTest _objectTest = new DecoratorFirst(new DecoratorTwo(new ObjectTest()));
+            IObjectTest _objectTest = new DecoratorFirst(new ObjectTest());
             _objectTest.GetText();
+            Console.WriteLine("---");
 
-            ObjectTestBase _objectTestTwo = new DecoratorTwo(new DecoratorFirst(new ObjectTest()));
-            _objectTestTwo.GetText();
+            IDecorator _decObject = new DecoratorTwo(_objectTest);
+            _decObject.GetText();
+            _decObject.GetDecorator();
 
-            Console.WriteLine("--- End --- offline");
+            //ObjectTestBase _objectTestTwo = new DecoratorTwo(new DecoratorFirst(new ObjectTest()));
+            //_objectTestTwo.GetText();
+
+            Console.WriteLine("--- End --- offline ---");
 
             //RunTimeTest
+            //DecDecoration Firs/Two
 
             IDec dec = new Dec();
             const string addDec1 = "add x";

@@ -5,7 +5,7 @@ using PetternDecorator.DecoratorTest;
 
 namespace PetternDecorator.DecoratorTest.Decorator
 {
-    public class DecoratorFirst : DecoratorBase
+    public class DecoratorFirst : IDecorator
     {
         private IObjectTest _object;
 
@@ -14,12 +14,12 @@ namespace PetternDecorator.DecoratorTest.Decorator
             _object = objectTest;
         }
 
-        public override void GetDecorator()
+        public void GetDecorator()
         {
             Console.WriteLine("DecoratorFirst");
         }
 
-        public override void GetText()
+        public void GetText()
         {
             _object.GetText();
             Console.WriteLine("add Decorator First");

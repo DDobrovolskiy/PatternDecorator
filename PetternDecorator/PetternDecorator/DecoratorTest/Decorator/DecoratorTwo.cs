@@ -4,7 +4,7 @@ using System.Text;
 
 namespace PetternDecorator.DecoratorTest.Decorator
 {
-    class DecoratorTwo: DecoratorBase
+    class DecoratorTwo: IDecorator
     {
         private IObjectTest _object;
 
@@ -13,12 +13,12 @@ namespace PetternDecorator.DecoratorTest.Decorator
             _object = objectTest;
         }
 
-        public override void GetDecorator()
+        public void GetDecorator()
         {
             Console.WriteLine("DecoratorTwo");
         }
 
-        public override void GetText()
+        public void GetText()
         {
             _object.GetText();
             Console.WriteLine("add Decorator Two");
