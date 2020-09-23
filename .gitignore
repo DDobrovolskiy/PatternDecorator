@@ -1,10 +1,1 @@
-bin/
-PetternDecorator/.vs/PetternDecorator/v16/.suo
-PetternDecorator/PetternDecorator/bin/Debug/netcoreapp3.1/PetternDecorator.dll
-PetternDecorator/PetternDecorator/bin/Debug/netcoreapp3.1/PetternDecorator.pdb
-PetternDecorator/PetternDecorator/obj/Debug/netcoreapp3.1/PetternDecorator.dll
-PetternDecorator/PetternDecorator/obj/Debug/netcoreapp3.1/PetternDecorator.pdb
-PetternDecorator/.vs/PetternDecorator/v16/.suo
-PetternDecorator/PetternDecorator/bin/
-PetternDecorator/PetternDecorator/bin
-*.pdb
+PetternDecorator\PetternDecorator\bin/
